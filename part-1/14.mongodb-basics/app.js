@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb+srv://milan_test:milan_test@cluster0.s2iaoir.mongodb.net/")
+  .connect("localhost:27017/testdb")
   .then(() => {
     console.log("Database connected successfully");
   })
